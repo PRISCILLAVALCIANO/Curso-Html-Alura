@@ -24,29 +24,22 @@ p {
 	margin: 20px 0;
 }
 
-.citacoes-bio-fiat {
+.citacoes-bio{
 	background-color: #D9E5E3;
 	border: 10px solid #C2CCCA;
 	width: 250px;
 	box-sizing: border-box;
 	margin: 20px 40px;
 	padding: 20px;
+}
+
+.fiat{
 	float: right;
 }
 
-.citacoes-bio-petrobras{
-	background-color: #D9E5E3;
-	border: 10px solid #C2CCCA;
-	width: 250px;
-	box-sizing: border-box;
-	margin: 20px 40px;
-	padding: 20px;
+.petrobras{
 	float: left;
 }
-
-/*.citacoes-bio cite{
-	font-style: italic;
-}*/
 
 .navegacao-site {
 	text-align: center;
@@ -73,7 +66,7 @@ main a {
 
  .navegacao-site{
 	padding: 20px;
-	clear: right;
+
 }
 
 .texto {
@@ -144,10 +137,24 @@ nav a {
 
 main{
 	width: 80%;
-	float: left;
+	float: right;
 }
 
 .minha-foto, .navegacao-site{
 	width: 20%;
 	float: right;
+	box-sizing: border-box;
+	border-right: 10px solid black;
+	border-bottom: 10px solid black;
+}
+
+.container{
+	padding: 30px 0;
+	width: 720px;
+	margin: auto;
+}
+
+cite{
+	font-style: italic;
+	float: left;
 }
