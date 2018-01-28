@@ -24,34 +24,23 @@ p {
 	margin: 20px 0;
 }
 
-.citacoes-bio{
+.citacao-bio {
 	background-color: #D9E5E3;
 	border: 10px solid #C2CCCA;
 	width: 250px;
 	box-sizing: border-box;
 	margin: 20px 40px;
-	padding: 20px;
-}
-
-.fiat{
-	float: right;
-}
-
-.petrobras{
-	float: left;
 }
 
 .navegacao-site {
 	text-align: center;
 	background-color: #3C1D3D;
 	color: #F2FFFC;
-	box-sizing: border-box;
 }
 
-#rodape-pagina {
+.rodape-pagina {
 	background-color: #000;
 	color: #F2FFFC;
-	padding: 20px;
 	clear: both;
 }
 
@@ -64,12 +53,11 @@ main a {
 	font-family: "Open Sans Condensed", sans-serif;
 }
 
- .navegacao-site{
-	padding: 20px;
-
+.citacao-bio, .navegacao-site, .rodape-pagina {
+    padding: 20px;
 }
 
-.texto {
+.container {
 	width: 720px;
 	margin: auto;
 	padding: 30px 0;
@@ -119,7 +107,7 @@ nav a {
 .icones-redes-sociais a {
 	width: 40px;
 	height: 40px;
-	display: inline-block;
+	display: block;
 	text-indent: -99999px;
 }
 
@@ -135,26 +123,28 @@ nav a {
 	background-image: url(linkedin.png);
 }
 
-main{
-	width: 80%;
+.fiat {
 	float: right;
 }
 
-.minha-foto, .navegacao-site{
-	width: 20%;
+.petrobras {
+	float: left;
+}
+
+main {
+	float: left;
+	width: 85%;
+}
+
+.minha-foto, .navegacao-site {
 	float: right;
+	width: 15%;
 	box-sizing: border-box;
-	border-right: 10px solid black;
+	border-left: 10px solid black;
 	border-bottom: 10px solid black;
 }
 
-.container{
-	padding: 30px 0;
-	width: 720px;
-	margin: auto;
-}
-
-cite{
+cite {
 	font-style: italic;
-	float: left;
+	float: right;
 }
