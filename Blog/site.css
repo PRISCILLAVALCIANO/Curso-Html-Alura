@@ -36,12 +36,20 @@ p {
 	text-align: center;
 	background-color: #3C1D3D;
 	color: #F2FFFC;
+	width: 15%;
+	clear: right;
+	position: relative;
+	top: 310px;
+	
 }
 
 .rodape-pagina {
 	background-color: #000;
 	color: #F2FFFC;
 	clear: both;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
 }
 
 main a {
@@ -60,7 +68,8 @@ main a {
 .container {
 	width: 720px;
 	margin: auto;
-	padding: 30px 0;
+	padding: 40px 0;
+	padding-bottom: 80px;
 }
 
 .navegacao-site h1 {
@@ -79,6 +88,13 @@ em {
 .subtitulo-texto {
 	font-size: 30px;
 	clear: both;
+}
+
+.texto {
+	width: 720px;
+	margin: auto;
+	padding: 40px 0;
+	padding-bottom: 80px;
 }
 
 .icones-redes-sociais li {
@@ -138,7 +154,6 @@ main {
 
 .minha-foto, .navegacao-site {
 	float: right;
-	width: 15%;
 	box-sizing: border-box;
 	border-left: 10px solid black;
 	border-bottom: 10px solid black;
@@ -147,4 +162,9 @@ main {
 cite {
 	font-style: italic;
 	float: right;
+}
+.minha-foto{
+	position: absolute;
+	top: 0;
+	right: 0;
 }
