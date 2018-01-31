@@ -1,11 +1,17 @@
 body {
 	font-family: "Crimson Text", "Times New Roman", serif;
-	background-color: #F2FFFC;
+    background-color: #F2FFFC;
+    font-size: 120%;
 	line-height: 1.5;
 }
 
 h1, h2 {
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+    text-shadow: 5px 5px #000;
 }
 
 .titulo-principal {
@@ -14,8 +20,6 @@ h1, h2 {
 	color: #FFF;
 	padding: 2rem;
 	border-bottom: .5rem solid black;
-	font-size: 300%;
-	text-transform: uppercase;
 }
 
 p {
@@ -36,12 +40,21 @@ p {
 }
 
 .rodape-pagina {
-	background-color: #000;
-	color: #F2FFFC;
+    background-image: radial-gradient(ellipse at left bottom, 
+                    rgba(60, 29, 61, .8),
+                      rgba(60, 29, 61, .8) 65%,
+                      black 65%,
+                      black 70%,
+                      transparent 70%,
+                      transparent);
+    background-size: 25% 100%;
+    background-repeat: no-repeat;
+    color: #fff;
 	clear: both;
 	width: 100%;
 	position: fixed;
-	bottom: 0;
+    bottom: 0;
+    box-sizing: border-box;
 }
 
 main a {
@@ -71,7 +84,7 @@ em {
 }
 
 .subtitulo-texto {
-	font-size: 30px;
+	font-size: 1.5em;
 	clear: both;
 }
 
