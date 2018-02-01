@@ -7,14 +7,24 @@
     box-sizing: border-box;
 }
 
-.fiat {
-	float: right;
-	margin-right: 0;
+.citacao-bio:nth-last-of-type(2n){
+	float: left;
 }
 
-.petrobras {
-	float: left;
-	margin-left: 0;
+.citacao-bio:nth-last-of-type(2n+1){
+	float: right;
+}
+
+.citacao-bio:hover, .citacao-bio:focus{
+    box-shadow: 0 0 0 9999px rgba(0,0,0, .8);
+}
+
+.citacao-bio:nth-last-of-type(2n):hover, .citacao-bio:nth-last-of-type(2n):focus{
+    transform: scale(1.2) rotate(-5deg);
+}
+
+.citacao-bio:nth-last-of-type(2n+1):hover, .citacao-bio:nth-last-of-type(2n+1):focus{
+    transform: scale(1.2) rotate(5deg);
 }
 
 .cite {

@@ -129,7 +129,7 @@ nav a {
 	background-image: url(../img/linkedin.png);
 }
 
-main {
+main{
 	float: left;
 	width: 85%;
 }
@@ -145,4 +145,12 @@ main {
 	position: absolute;
 	top: 0;
 	right: 0;
+}
+
+main a:hover, main a:focus, footer a:hover, footer a:focus{
+	color:red;
+}
+
+.navegacao-site a:hover, .navegacao-site a:focus{
+	text-shadow: 0 0 2px pink;
 }
