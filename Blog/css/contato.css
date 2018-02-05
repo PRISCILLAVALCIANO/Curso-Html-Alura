@@ -47,6 +47,16 @@ button:hover,
 button:focus{
     background-color: #8c1d3d;
 }
-input[value="outro"]:checked ~ input{
+label[for="outro"]{
+    display: inline;
+}
+input[name="outro-assunto"]{
+    width: auto;
+}
+input[value="outro"] ~ input {
+    display: none;
+}
+
+input[value="outro"]:checked ~ input {
     display: inline;
 }
