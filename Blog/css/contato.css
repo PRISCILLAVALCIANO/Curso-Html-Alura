@@ -16,22 +16,6 @@ textarea{
     box-sizing: border-box;
     border: 1px solid #ccc;
 }
-fieldset > fieldset{
-    display: inline;
-}
-label[for="outro"]{
-    display: inline;
-}
-input[name="outro-assunto"]{
-    width: auto;
-}
-input:focus,
-textarea:focus{
-    background-color: #ffd;
-}
-input:invalid{
-    box-shadow: 0 0 3px red;
-}
 button{
     border: 0;
     padding: .5em 1em;
@@ -41,11 +25,19 @@ button{
     font-size: 1.2em;
     margin-left: auto;
     margin-top: 1em;
-    display: block;
 }
-button:hover,
+input:invalid{
+    box-shadow: 0 0 3px red;
+}
+input:focus,
+textarea:focus{
+    background-color: #ffd;
+}
 button:focus{
     background-color: #8c1d3d;
+}
+fieldset > fieldset{
+    display: inline;
 }
 label[for="outro"]{
     display: inline;
@@ -53,10 +45,9 @@ label[for="outro"]{
 input[name="outro-assunto"]{
     width: auto;
 }
-input[value="outro"] ~ input {
+input[value="Outro"] ~ input {
     display: none;
 }
-
-input[value="outro"]:checked ~ input {
+input[value="Outro"]:checked ~ input {
     display: inline;
 }
