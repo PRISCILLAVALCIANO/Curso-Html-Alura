@@ -52,3 +52,38 @@
 	font-style: italic;
 	float: right;
 }
+
+table{
+    border-collapse: separate;
+    border-spacing: 0.25em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.habilidades > th{
+    background-color: #851944;
+    color: #fff;
+}
+
+.cabecalho > th{
+    background-color: #3C1D3D;
+    color: #fff;
+}
+
+td{
+    background-color: #eee;
+    color: #000;
+}
+
+.habilidades > th,
+.cabecalho > th,
+td{
+    padding: 1em;
+}
+
+.novashabilidades {
+    text-align: center;
+    font-style: italic;
+    vertical-align: middle;
+}
+

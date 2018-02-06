@@ -51,3 +51,40 @@ input[value="Outro"] ~ input {
 input[value="Outro"]:checked ~ input {
     display: inline;
 }
+label[for="nome"],
+label[for="email"] {
+    position: relative;
+}
+label[for="nome"]::after{
+    content: " ";
+    background-color: #666;
+    background-repeat: no-repeat;
+    background-image: url(../img/usuario.png);
+    background-size: 50% 50%;
+    width: 2em;
+    height: 2em;
+    background-position: center;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    
+}
+label[for="email"]::after{
+    content: " ";
+    background-color: #666;
+    background-repeat: no-repeat;
+    background-image: url(../img/email.png);
+    background-size: 50% 50%;
+    width: 2em;
+    height: 2em;
+    background-position: center;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+#nome,
+#email{
+    width: calc(100% - 2em);
+    position: relative;
+    left: 2em;
+}
